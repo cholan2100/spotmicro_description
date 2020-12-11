@@ -22,3 +22,6 @@ You can view the model by running:
 You can modify the Xacro description and see the changes in the UDF file with this command:
 
     rosrun xacro xacro ceasar.urdf.xacro > ceasar.urdf
+
+## TODO
+Implement actuator interface ROS Node on RasPi4 to relay the servo angles to PCA9685
