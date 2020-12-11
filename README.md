@@ -1,8 +1,15 @@
-# spotmicro_description
+# spotmicro32_description
 
-A minimal and revamped version of [SpotMicroAI](https://spotmicroai.readthedocs.io/en/latest/) description file pulled from its [Gitlab](https://gitlab.com/custom_robots/spotmicroai/simulation) repository.
+CHAMP controller description for ESP32 model of Spot Micro
+https://github.com/michaelkubina/SpotMicroESP32
 
-The meshes' path have been modified so the models can be located using its package name.
+Champ Controller:
+https://github.com/chvmp/champ
+
+[![simulate](https://img.youtube.com/vi/VBxURF_wAiI/0.jpg)](https://youtu.be/VBxURF_wAiI "Simulate")
+
+## Requirements
+ROS Melodic
 
 ## Quick Start
 
@@ -14,4 +21,4 @@ You can view the model by running:
 
 You can modify the Xacro description and see the changes in the UDF file with this command:
 
-    rosrun xacro xacro spotmicroai.urdf.xacro > spotmicroai.urdf
+    rosrun xacro xacro ceasar.urdf.xacro > ceasar.urdf
